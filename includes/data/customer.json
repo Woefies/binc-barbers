@@ -1,0 +1,26 @@
+[
+  {
+    "customerNumber": "0001",
+    "name": "Sem",
+    "lastname": "van Elteren",
+    "address": "Olympiastraat 54"
+  },
+  {
+    "customerNumber": "0002",
+    "name": "milo",
+    "lastname": "van Elteren",
+    "address": "Olympiastraat 54"
+  },
+  {
+    "customerNumber": "0003",
+    "name": "Jordan",
+    "lastname": "Goedbloed",
+    "address": "bruhlaan 69"
+  },
+  {
+    "customerNumber": "0004",
+    "name": "test",
+    "lastname": "test test",
+    "address": "teststraat 101"
+  }
+]
