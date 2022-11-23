@@ -20,21 +20,23 @@
         <table class="table">
             <thead>
             <tr>
-                <th>Klantnummer:</th>
+                <th>#</th>
                 <th>Naam:</th>
                 <th>Achternaam:</th>
                 <th>Address:</th>
+                <th colspan="2"></th>
             </tr>
             </thead>
             <tfoot>
             </tfoot>
             <tbody>
-            <?php foreach ($customers as $customer): ?>
+            <?php foreach ($customers as $index => $customer): ?>
                 <tr>
-                    <td><?=$customer->customerNumber ?></td>
+                    <td><?=$index + 1?></td>
                     <td><?=$customer->name ?></td>
                     <td><?=$customer->lastname ?></td>
                     <td><?=$customer->address ?></td>
+                    <td><a href="detail.php?customerNumber=<?= $index; ?>">Details</a></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>

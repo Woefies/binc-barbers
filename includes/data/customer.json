@@ -1,24 +1,24 @@
 [
   {
-    "customerNumber": "0001",
+    "customerNumber": "1",
     "name": "Sem",
     "lastname": "van Elteren",
     "address": "Olympiastraat 54"
   },
   {
-    "customerNumber": "0002",
+    "customerNumber": "2",
     "name": "milo",
     "lastname": "van Elteren",
     "address": "Olympiastraat 54"
   },
   {
-    "customerNumber": "0003",
+    "customerNumber": "3",
     "name": "Jordan",
     "lastname": "Goedbloed",
     "address": "bruhlaan 69"
   },
   {
-    "customerNumber": "0004",
+    "customerNumber": "4",
     "name": "test",
     "lastname": "test test",
     "address": "teststraat 101"
