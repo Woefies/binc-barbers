@@ -1,0 +1,15 @@
+{
+    "name": "sem40/assignment",
+    "authors": [
+        {
+            "name": "Sem van Elteren",
+            "email": "sem407@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "System\\": "includes/classes/System/"
+        }
+    }
+}
