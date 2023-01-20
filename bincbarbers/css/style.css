@@ -1,0 +1,56 @@
+* {
+    font-family: Oswald, serif;
+}
+nav {
+    background: none;
+}
+nav a {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+nav a:hover {
+    color: #8A6E32 !important;
+}
+.is-primary {
+    background-color: #8A6E32 !important;
+}
+
+ .hero {
+    background-image: url("../img/hero-img.jpg");
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+ .hero-body {
+    margin: 0 auto  ;
+ }
+ .hero-content {
+    margin: 0 auto;
+    width: 100%;
+
+    padding: 0 1.5rem;
+    text-align: center;
+ }
+.hero-button {
+    margin-top : 5em;
+    padding: 20px 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo {
+    max-width: 500px;
+
+}
+. {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.field-body input {
+    width: 400px !important;
+}
